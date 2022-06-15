@@ -1,0 +1,29 @@
+.containerButton{
+    justify-content: space-around;
+    display: flex;
+}
+.deleteBut , .editBut{
+    padding: 5px;
+    width: 80px;
+    border-radius: 11px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.editBut{
+    border-color: greenyellow; 
+    color: greenyellow;
+    cursor: pointer;
+    pointer-events: stroke;
+}
+.editBut:hover{
+    background-color: greenyellow;
+    color: white;
+}
+.deleteBut{
+    border-color: red; 
+    color: red;
+    cursor: pointer;
+}
+.deleteBut:hover{
+    background-color: red;
+    color: white;
+}
