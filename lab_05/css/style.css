@@ -1,0 +1,21 @@
+.container{
+    width: 240px;
+    align-items: center;
+    border: 1px solid;
+    padding: 25px;
+    border-radius: 10px;
+}
+.phone{
+    width: 215px;
+    margin: 0;
+    padding: 0;
+}
+.containerImg{
+width: 215px;
+    align-items: center;
+    display: flex;
+}
+.properties{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}

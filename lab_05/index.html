@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ua">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/buttons.css">
+        <link rel="stylesheet" href="./css/modal.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Component</title>
+    </head>
+    <body>
+        <div id="modal" class="modal">
+            <div class="modal-body">
+                <div class="modal-content">
+                    <fieldset>
+                        <div class="legendAndClose">
+                            <legend class="legend-modal">Edit</legend>
+                            <a href="#" class="modal-close">X</a>
+                        </div>
+                        <label>
+                            Діагональ дисплея
+                            <input type="text" required placeholder="6,43">
+                        </label>
+                        <label>
+                            Процесор
+                            <select>
+                                <option value="Qualcomm Snapdragon 680">Qualcomm Snapdragon 680</option>
+                                <option value="Qualcomm Snapdragon 778">Qualcomm Snapdragon 778</option>
+                                <option value="Unisoc Tiger T610 ">Unisoc Tiger T610</option>
+                            </select>
+                        </label>
+                        <label>
+                            Оперативна пам'ять
+                            <input type="text" required placeholder="4 ГБ">
+                        </label>
+                        <label>
+                            Вбудована пам'ять
+                            <input type="text" required placeholder="128 ГБ">
+                        </label>
+                        <div class="containerButton">
+                            <a class="editBut" href="#">edit</a>
+                            <a class="deleteBut" href="#">delete</a>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="containerImg">
+                <img class="phone" src="./images/note_11_gray_6_1.jpg">
+            </div>
+            <div class="containerProperties">
+                <h3 class="properties">Xiaomi Redmi Note 11 4/128Gb Graphite Gray</h3>
+                <p class="properties">Діагональ дисплея:6,43</p>
+                <p class="properties">Процесор:Qualcomm Snapdragon 680</p>
+                <p class="properties">Оперативна пам'ять:4 ГБ</p>
+                <p class="properties">Вбудована пам'ять:128 ГБ</p>
+            </div>
+            <div class="containerButton">
+                <a href="#modal">
+                    <button class="editBut">Edit</button>
+                </a>
+                <button class="deleteBut">Delete</button>
+            </div>
+        </div>
+    </body>
+</html>
