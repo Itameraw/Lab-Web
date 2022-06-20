@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.container {
+    width: 1200px;
+    min-height: 100%;
+    margin: 0 auto;
+}
+
+nav,
+header,footer
+ {
+    background-color: rgba(22, 21, 21, 0.452);
+    width: 100%;
+    padding: 10px;
+    float: left;
+    margin-top: 10px;
+    border: 1px solid;
+    margin-right: 10px;
+    height: 50px;
+}
+
+
+aside,
+main {
+    background-color: rgba(22, 21, 21, 0.452);
+    width: calc(10% - -455px);
+    padding: 10px;
+    float: left;
+    margin-top: 10px;
+    border: 1px solid;
+    height: 100px;
+}
+
+
+
